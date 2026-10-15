@@ -1,0 +1,15 @@
+{
+  "destinos": {
+    "site": {"cta": "LEARN_MORE", "link_prefixo": "https://www.example.com"},
+    "mensagem": {"cta": "WHATSAPP_MESSAGE", "link_prefixo": "https://wa.me/"},
+    "perfil": {"cta": "VIEW_INSTAGRAM_PROFILE"}
+  },
+  "texto_obrigatorio": "Anúncio pago por",
+  "padroes_proibidos": [
+    "^\\s*(legenda|opção|opcao|versão|versao)\\s*[A-C1-3]?\\s*:",
+    "lorem ipsum",
+    "\\[inserir"
+  ],
+  "codigo_no_nome": "[A-Z]{2,4}-(CARD|VID|CARR|STORY)-\\d{3}",
+  "video_exige_botao": true
+}

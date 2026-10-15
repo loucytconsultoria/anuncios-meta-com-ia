@@ -1,0 +1,107 @@
+{
+  "descricao": "Estrutura SINTÉTICA de exemplo. Marcadores {{...}} são trocados por variáveis de ambiente ou --var; nenhum id real fica no arquivo.",
+  "campanhas": [
+    {
+      "nome": "Exemplo · Alcance",
+      "params": {"objective": "OUTCOME_AWARENESS", "status": "PAUSED", "special_ad_categories": [], "buying_type": "AUCTION"},
+      "conjuntos": [
+        {
+          "nome": "Alcance · Região inteira · 18+",
+          "destino": "nenhum",
+          "params": {
+            "daily_budget": 5000, "billing_event": "IMPRESSIONS", "optimization_goal": "REACH",
+            "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "status": "PAUSED",
+            "start_time": "2026-11-02T08:00:00-0300", "end_time": "2026-11-16T23:59:00-0300",
+            "targeting": {"geo_locations": {"regions": [{"key": "{{REGIAO}}"}], "location_types": ["home", "recent"]},
+                          "age_min": 18, "age_max": 65, "publisher_platforms": ["facebook", "instagram"]}
+          },
+          "anuncios": [
+            {"nome": "EX-CARD-001 · Água tratada",
+             "criativo": {"name": "EX-CARD-001 · Água tratada", "object_story_spec": {"page_id": "{{PAGINA}}", "link_data": {
+               "message": "Água tratada em todas as torneiras do bairro. Anúncio pago por Exemplo Ltda.",
+               "link": "{{LINK_SITE}}", "image_hash": "{{IMAGEM_1}}"}}}},
+            {"nome": "EX-CARD-002 · Saneamento é saúde",
+             "criativo": {"name": "EX-CARD-002 · Saneamento é saúde", "object_story_spec": {"page_id": "{{PAGINA}}", "link_data": {
+               "message": "Legenda A: Saneamento é saúde. Anúncio pago por Exemplo Ltda.",
+               "link": "{{LINK_SITE}}", "image_hash": "{{IMAGEM_2}}"}}}}
+          ]
+        },
+        {
+          "nome": "Alcance · Raio de 3 km do evento",
+          "destino": "nenhum",
+          "params": {
+            "daily_budget": 3000, "billing_event": "IMPRESSIONS", "optimization_goal": "REACH",
+            "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "status": "PAUSED",
+            "start_time": "2026-11-02T08:00:00-0300", "end_time": "2026-11-09T23:59:00-0300",
+            "targeting": {"geo_locations": {"custom_locations": [{"latitude": -10.0, "longitude": -40.0, "radius": 3, "distance_unit": "kilometer"}]},
+                          "age_min": 18, "age_max": 65, "publisher_platforms": ["instagram"]}
+          },
+          "anuncios": [
+            {"nome": "EX-VID-003 · Convite para o mutirão",
+             "criativo": {"name": "EX-VID-003 · Convite para o mutirão", "object_story_spec": {"page_id": "{{PAGINA}}", "video_data": {
+               "message": "Mutirão de limpeza do rio no sábado. Anúncio pago por Exemplo Ltda.",
+               "video_id": "{{VIDEO_1}}", "image_hash": "{{IMAGEM_3}}"}}}}
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Exemplo · Tráfego para o site",
+      "params": {"objective": "OUTCOME_TRAFFIC", "status": "PAUSED", "special_ad_categories": [], "buying_type": "AUCTION"},
+      "conjuntos": [
+        {
+          "nome": "Tráfego · Site · 25-44",
+          "destino": "site",
+          "params": {
+            "daily_budget": 4000, "billing_event": "IMPRESSIONS", "optimization_goal": "LANDING_PAGE_VIEWS",
+            "destination_type": "WEBSITE", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "status": "PAUSED",
+            "start_time": "2026-11-02T08:00:00-0300", "end_time": "2026-11-16T23:59:00-0300",
+            "targeting": {"geo_locations": {"regions": [{"key": "{{REGIAO}}"}]}, "age_min": 25, "age_max": 44,
+                          "publisher_platforms": ["facebook", "instagram"]}
+          },
+          "anuncios": [
+            {"nome": "EX-CARD-004 · Mapa das obras",
+             "criativo": {"name": "EX-CARD-004 · Mapa das obras", "object_story_spec": {"page_id": "{{PAGINA}}", "link_data": {
+               "message": "Veja no mapa as obras do seu bairro. Anúncio pago por Exemplo Ltda.",
+               "link": "{{LINK_SITE}}", "image_hash": "{{IMAGEM_1}}",
+               "call_to_action": {"type": "LEARN_MORE", "value": {"link": "{{LINK_SITE}}"}}}}}},
+            {"nome": "EX-CARD-005 · Fale com a gente",
+             "criativo": {"name": "EX-CARD-005 · Fale com a gente", "object_story_spec": {"page_id": "{{PAGINA}}", "link_data": {
+               "message": "Tire suas dúvidas sobre a obra. Anúncio pago por Exemplo Ltda.",
+               "link": "{{LINK_SITE}}", "image_hash": "{{IMAGEM_2}}",
+               "call_to_action": {"type": "WHATSAPP_MESSAGE", "value": {"link": "{{LINK_SITE}}"}}}}}}
+          ]
+        },
+        {
+          "nome": "Tráfego · Site · 45+",
+          "destino": "site",
+          "params": {
+            "daily_budget": 4000, "billing_event": "IMPRESSIONS", "optimization_goal": "LANDING_PAGE_VIEWS",
+            "destination_type": "WEBSITE", "bid_strategy": "LOWEST_COST_WITHOUT_CAP", "status": "PAUSED",
+            "start_time": "2026-11-02T08:00:00-0300", "end_time": "2026-11-16T23:59:00-0300",
+            "targeting": {"geo_locations": {"regions": [{"key": "{{REGIAO}}"}]}, "age_min": 45, "age_max": 65,
+                          "publisher_platforms": ["facebook"]}
+          },
+          "anuncios": [
+            {"nome": "Card do mapa para 45+",
+             "criativo": {"name": "Card do mapa para 45+", "object_story_spec": {"page_id": "{{PAGINA}}", "link_data": {
+               "message": "Veja no mapa as obras do seu bairro.",
+               "link": "{{LINK_SITE}}", "image_hash": "{{IMAGEM_1}}",
+               "call_to_action": {"type": "LEARN_MORE", "value": {"link": "{{LINK_SITE}}"}}}}}}
+          ]
+        },
+        {
+          "nome": "Tráfego · Lista de clientes",
+          "destino": "site",
+          "pendente": "público personalizado ainda não criado na conta",
+          "params": {
+            "daily_budget": 2000, "billing_event": "IMPRESSIONS", "optimization_goal": "LANDING_PAGE_VIEWS",
+            "destination_type": "WEBSITE", "status": "PAUSED",
+            "targeting": {"geo_locations": {"regions": [{"key": "{{REGIAO}}"}]}, "age_min": 18, "age_max": 65}
+          },
+          "anuncios": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+ "arte_agua": {
+  "arquivo": "arte_agua",
+  "texto_na_imagem": "ÁGUA TRATADA / EM TODAS AS TORNEIRAS / Instituto Aguaclara / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "saneamento_agua"
+  ],
+  "temas_outros": "",
+  "tom": "propositivo",
+  "cta": [
+   "acesse_site"
+  ],
+  "descricao_visual": "card azul com texto branco centralizado"
+ },
+ "arte_esgoto": {
+  "arquivo": "arte_esgoto",
+  "texto_na_imagem": "SANEAMENTO / É SAÚDE / Plano de coleta de esgoto / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "saneamento_agua",
+   "saude"
+  ],
+  "temas_outros": "",
+  "tom": "institucional_informativo",
+  "cta": [
+   "nenhum"
+  ],
+  "descricao_visual": "card verde com texto em caixa alta"
+ },
+ "arte_ciclovia": {
+  "arquivo": "arte_ciclovia",
+  "texto_na_imagem": "CICLOVIA CONTÍNUA / do centro à periferia / Assine a proposta / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "transporte_publico"
+  ],
+  "temas_outros": "",
+  "tom": "convocacao_mobilizacao",
+  "cta": [
+   "assine_participe"
+  ],
+  "descricao_visual": "card laranja com seta desenhada"
+ },
+ "arte_escola": {
+  "arquivo": "arte_escola",
+  "texto_na_imagem": "ESCOLA EM / TEMPO INTEGRAL / Oficinas gratuitas / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "educacao"
+  ],
+  "temas_outros": "",
+  "tom": "propositivo",
+  "cta": [
+   "inscreva_se"
+  ],
+  "descricao_visual": "card roxo com texto centralizado"
+ },
+ "arte_biblioteca": {
+  "arquivo": "arte_biblioteca",
+  "texto_na_imagem": "LEITURA TODO DIA / Biblioteca aberta aos sábados / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "educacao",
+   "cultura_lazer"
+  ],
+  "temas_outros": "",
+  "tom": "institucional_informativo",
+  "cta": [
+   "nenhum"
+  ],
+  "descricao_visual": "card marrom com texto"
+ },
+ "arte_exames": {
+  "arquivo": "arte_exames",
+  "texto_na_imagem": "MUTIRÃO DE EXAMES / Inscrições abertas / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "saude"
+  ],
+  "temas_outros": "",
+  "tom": "convocacao_mobilizacao",
+  "cta": [
+   "inscreva_se"
+  ],
+  "descricao_visual": "card azul-esverdeado com texto"
+ },
+ "arte_mudas": {
+  "arquivo": "arte_mudas",
+  "texto_na_imagem": "PLANTIO DE MUDAS / NATIVAS / Venha com a família / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "meio_ambiente"
+  ],
+  "temas_outros": "",
+  "tom": "convocacao_mobilizacao",
+  "cta": [
+   "participe_evento"
+  ],
+  "descricao_visual": "card verde com texto"
+ },
+ "arte_luz": {
+  "arquivo": "arte_luz",
+  "texto_na_imagem": "MAIS LUZ / MAIS SEGURANÇA / Caminhada noturna / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "seguranca_iluminacao"
+  ],
+  "temas_outros": "",
+  "tom": "denuncia_critica",
+  "cta": [
+   "participe_evento"
+  ],
+  "descricao_visual": "card escuro com texto claro"
+ },
+ "arte_vacina": {
+  "arquivo": "arte_vacina",
+  "texto_na_imagem": "VACINAÇÃO EM DIA / Confira o calendário / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "saude"
+  ],
+  "temas_outros": "",
+  "tom": "institucional_informativo",
+  "cta": [
+   "nenhum"
+  ],
+  "descricao_visual": "card vermelho com texto"
+ },
+ "arte_rio": {
+  "arquivo": "arte_rio",
+  "texto_na_imagem": "MUTIRÃO DE LIMPEZA / DO RIO / Encontro na ponte / Anúncio de exemplo (dados sintéticos)",
+  "tipo_visual": "arte_grafica",
+  "elementos_visuais": [
+   "texto_dominante"
+  ],
+  "temas": [
+   "meio_ambiente"
+  ],
+  "temas_outros": "",
+  "tom": "convocacao_mobilizacao",
+  "cta": [
+   "participe_evento"
+  ],
+  "descricao_visual": "card azul com texto"
+ }
+}

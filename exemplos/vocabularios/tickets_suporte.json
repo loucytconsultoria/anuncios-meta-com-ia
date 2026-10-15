@@ -1,0 +1,45 @@
+{
+  "nome": "Triagem de tickets de suporte",
+  "unidade": "um ticket (assunto + mensagem do cliente; anexos de print são lidos como imagem)",
+  "campos": {
+    "categoria": {
+      "tipo": "um",
+      "codigos": {
+        "cobranca": "fatura, cobrança indevida, reembolso",
+        "acesso_conta": "login, senha, bloqueio",
+        "defeito_produto": "algo não funciona como deveria",
+        "entrega_logistica": "atraso, extravio, endereço",
+        "cancelamento": "pedido de cancelamento ou de portabilidade",
+        "duvida_uso": "como fazer algo",
+        "elogio": "elogio sem pedido",
+        "outro": "fora da lista: termo em categoria_outros"
+      }
+    },
+    "urgencia": {
+      "tipo": "um",
+      "codigos": {
+        "alta": "cliente sem acesso a serviço pago, risco financeiro ou legal",
+        "media": "funciona com contorno",
+        "baixa": "dúvida, sugestão, elogio"
+      }
+    },
+    "sinais": {
+      "tipo": "lista",
+      "codigos": {
+        "ameaca_cancelar": "diz que vai cancelar",
+        "menciona_orgao_defesa": "cita órgão de defesa do consumidor ou processo",
+        "segunda_reclamacao": "diz que já reclamou antes",
+        "dado_pessoal_exposto": "o cliente colou dado sensível na mensagem (tratar e mascarar)",
+        "nenhum": "sem sinal relevante"
+      }
+    }
+  },
+  "campos_livres": {
+    "resumo": "uma frase com o pedido do cliente, sem dado pessoal",
+    "texto_na_imagem": "texto do print anexado, literal"
+  },
+  "regras": [
+    "A urgência segue o impacto para o cliente, não o tom da mensagem.",
+    "Nunca copiar dado pessoal para o resumo."
+  ]
+}

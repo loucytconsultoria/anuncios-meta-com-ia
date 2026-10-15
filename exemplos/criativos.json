@@ -1,0 +1,47 @@
+{
+ "a1001": [
+  "arte_agua.png"
+ ],
+ "a1002": [
+  "arte_esgoto.png"
+ ],
+ "a1019": [
+  "arte_esgoto_grande.png"
+ ],
+ "a1017": [
+  "arte_esgoto.png"
+ ],
+ "a1003": [
+  "arte_ciclovia.png"
+ ],
+ "a1007": [
+  "arte_ciclovia_grande.png"
+ ],
+ "a1004": [
+  "arte_escola.png"
+ ],
+ "a1005": [
+  "arte_biblioteca.png"
+ ],
+ "a1014": [
+  "arte_escola_grande.png"
+ ],
+ "a1006": [
+  "arte_exames.png"
+ ],
+ "a1016": [
+  "arte_vacina.png"
+ ],
+ "a1009": [
+  "arte_mudas.png"
+ ],
+ "a1020": [
+  "arte_rio.png"
+ ],
+ "a1011": [
+  "arte_luz.png"
+ ],
+ "a1012": [
+  "arte_luz.png"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "nome": "Classificação de notas fiscais e recibos digitalizados",
+  "unidade": "uma imagem ou PDF de nota fiscal, cupom ou recibo",
+  "campos": {
+    "centro_de_custo": {
+      "tipo": "um",
+      "codigos": {
+        "midia_publicidade": "impulsionamento, produção de vídeo, gráfica",
+        "pessoal": "serviços prestados por pessoa física, diárias",
+        "locacao": "aluguel de imóvel, veículo, equipamento",
+        "deslocamento": "combustível, passagem, pedágio, hospedagem",
+        "material_escritorio": "papelaria, informática",
+        "servicos_terceiros": "contabilidade, jurídico, tecnologia",
+        "outro": "fora da lista: termo em centro_de_custo_outros"
+      }
+    },
+    "tipo_documento": {
+      "tipo": "um",
+      "codigos": {
+        "nota_servico": "nota fiscal de serviço",
+        "nota_produto": "nota fiscal de produto",
+        "cupom": "cupom fiscal",
+        "recibo": "recibo simples",
+        "ilegivel": "não dá para ler"
+      }
+    },
+    "alertas": {
+      "tipo": "lista",
+      "codigos": {
+        "sem_identificacao_emissor": "emissor não aparece",
+        "data_fora_do_periodo": "data fora do período em conferência",
+        "valor_rasurado": "valor com rasura ou emenda",
+        "duplicidade_provavel": "mesmo número/valor de outra nota",
+        "nenhum": "sem alerta"
+      }
+    }
+  },
+  "campos_livres": {
+    "texto_na_imagem": "transcrição literal dos campos legíveis",
+    "valor_total": "valor total como aparece no documento (o script converte e soma; o modelo não soma)"
+  },
+  "regras": [
+    "O modelo transcreve e classifica; somas e conferência de totais são feitas por script.",
+    "Alerta é sinal para revisão humana, não decisão."
+  ]
+}

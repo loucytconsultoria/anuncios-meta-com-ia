@@ -1,0 +1,3 @@
+# O código usa só a biblioteca padrão do Python.
+# Pillow: hash perceptual das imagens (sem ele, a deduplicação fica só por cópia idêntica) e imagens de exemplo.
+Pillow>=10.1

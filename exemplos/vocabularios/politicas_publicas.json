@@ -1,0 +1,88 @@
+{
+  "nome": "Temas de interesse público em anúncios",
+  "unidade": "um criativo (imagem) ou um texto de anúncio",
+  "campos": {
+    "temas": {
+      "tipo": "lista",
+      "max": 3,
+      "codigos": {
+        "saneamento_agua": "água tratada, esgoto, drenagem, enchente urbana por falta de obra",
+        "saude": "atendimento, exames, vacinação, prevenção, saúde mental",
+        "educacao": "escola, creche, reforço, leitura, formação profissional",
+        "mobilidade": "ônibus, ciclovia, calçada, trânsito, transporte público",
+        "meio_ambiente": "rios, mudas, áreas verdes, resíduos, clima",
+        "seguranca_iluminacao": "iluminação pública, policiamento comunitário, prevenção de violência",
+        "habitacao": "moradia, regularização, aluguel",
+        "economia_emprego": "renda, emprego, pequeno negócio, preços",
+        "assistencia_social": "fome, população de rua, idosos, pessoas com deficiência",
+        "cultura_lazer": "cultura, esporte, eventos, praças",
+        "outro": "assunto que não cabe em nenhum código: escreva o termo em temas_outros"
+      }
+    },
+    "tom": {
+      "tipo": "um",
+      "codigos": {
+        "propositivo": "apresenta solução ou proposta",
+        "institucional_informativo": "informa, sem chamada forte",
+        "convocacao_mobilizacao": "chama para agir, participar, comparecer",
+        "denuncia_critica": "aponta problema ou responsável",
+        "emocional_testemunho": "história pessoal, depoimento",
+        "medo_alerta": "alerta de risco ou ameaça",
+        "humor_ironia": "piada, meme, ironia"
+      }
+    },
+    "cta": {
+      "tipo": "lista",
+      "codigos": {
+        "acesse_site": "manda para site ou link",
+        "assine_participe": "abaixo-assinado, consulta, adesão",
+        "inscreva_se": "inscrição, matrícula, cadastro",
+        "participe_evento": "comparecer a evento, mutirão, caminhada",
+        "compartilhe": "pede para compartilhar",
+        "contato_mensagem": "WhatsApp, direct, telefone",
+        "doacao": "pede doação",
+        "nenhum": "sem chamada para ação"
+      }
+    },
+    "tipo_visual": {
+      "tipo": "um",
+      "so_imagem": true,
+      "codigos": {
+        "foto": "foto sem texto relevante",
+        "arte_grafica": "card ou arte em que o texto é o principal",
+        "foto_com_texto": "foto com texto sobreposto",
+        "print": "print de notícia, post ou documento",
+        "frame_video": "quadro de vídeo",
+        "ilustracao": "desenho ou ilustração",
+        "outro": "nenhum dos anteriores"
+      }
+    },
+    "elementos_visuais": {
+      "tipo": "lista",
+      "so_imagem": true,
+      "codigos": {
+        "texto_dominante": "o texto ocupa a maior parte da peça",
+        "pessoa_retrato": "uma pessoa posando, em destaque",
+        "pessoas_em_acao": "pessoas trabalhando, conversando, na rua",
+        "multidao_evento": "muita gente, evento",
+        "cenario_urbano": "rua, prédio, cidade",
+        "cenario_natural": "rio, mata, campo",
+        "grafico_dados": "gráfico, número em destaque, mapa de dados",
+        "logo_marca": "logo da entidade em destaque",
+        "qr_code": "QR code",
+        "outro": "elemento relevante fora da lista"
+      }
+    }
+  },
+  "campos_livres": {
+    "texto_na_imagem": "todo o texto visível, literal, na ordem de leitura; blocos separados por ' / '",
+    "descricao_visual": "uma frase objetiva do que se vê, sem repetir o texto",
+    "temas_outros": "termo curto quando um código 'outro' for usado"
+  },
+  "regras": [
+    "Marque só o ASSUNTO da peça, no máximo 3 temas, do mais central ao menos central; menção de passagem não conta.",
+    "Peça que só identifica o anunciante (nome, logo, contato) fica com temas = [].",
+    "Transcrição é literal: não corrigir, não resumir, não traduzir. Ilegível: [ilegível].",
+    "Nunca identificar pessoa pelo rosto; nome de pessoa só se estiver escrito na imagem."
+  ]
+}

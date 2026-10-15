@@ -1,0 +1,17 @@
+# segredos
+.env
+*.env
+*token*.txt
+
+# dados reais e saídas
+dados/
+saida_demo/
+saida_*/
+*.sqlite
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

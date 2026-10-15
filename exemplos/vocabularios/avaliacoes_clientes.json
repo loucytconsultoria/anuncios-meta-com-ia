@@ -1,0 +1,44 @@
+{
+  "nome": "Avaliações de clientes",
+  "unidade": "uma avaliação (nota + texto; foto anexada é lida como imagem)",
+  "campos": {
+    "aspectos": {
+      "tipo": "lista",
+      "max": 3,
+      "codigos": {
+        "preco": "preço, custo-benefício",
+        "qualidade": "qualidade do produto ou do serviço",
+        "atendimento": "atendimento, educação, tempo de resposta",
+        "entrega": "prazo, embalagem, estado de chegada",
+        "ambiente": "limpeza, conforto, barulho (serviço presencial)",
+        "pos_venda": "troca, garantia, suporte",
+        "outro": "fora da lista: termo em aspectos_outros"
+      }
+    },
+    "sentimento": {
+      "tipo": "um",
+      "codigos": {
+        "positivo": "elogio predominante",
+        "neutro": "relato sem juízo claro",
+        "negativo": "reclamação predominante",
+        "misto": "elogio e reclamação de peso parecido"
+      }
+    },
+    "acao_sugerida": {
+      "tipo": "lista",
+      "codigos": {
+        "responder_publicamente": "pede resposta pública",
+        "contatar_cliente": "caso para contato direto",
+        "repassar_operacao": "problema operacional a corrigir",
+        "nenhuma": "sem ação"
+      }
+    }
+  },
+  "campos_livres": {
+    "trecho_chave": "até 160 caracteres LITERAIS da avaliação que sustentam a classificação"
+  },
+  "regras": [
+    "Classificar pelo texto, não pela nota em estrelas (a nota é comparada depois, por script).",
+    "Ironia conta pelo sentido, não pela palavra."
+  ]
+}

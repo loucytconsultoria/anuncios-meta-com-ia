@@ -1,0 +1,64 @@
+{
+  "nome": "Criativos de varejo e serviços",
+  "unidade": "um criativo (imagem) ou um texto de anúncio",
+  "campos": {
+    "temas": {
+      "tipo": "lista",
+      "max": 3,
+      "codigos": {
+        "preco_promocao": "desconto, liquidação, preço em destaque, cupom",
+        "lancamento_produto": "produto ou serviço novo",
+        "frete_entrega": "frete grátis, prazo de entrega, retirada na loja",
+        "parcelamento_credito": "parcelas, cartão da loja, crediário",
+        "qualidade_garantia": "durabilidade, garantia, certificação",
+        "atendimento_conveniencia": "horário, agendamento online, atendimento humano",
+        "data_sazonal": "Natal, Dia das Mães, volta às aulas, Black Friday",
+        "sustentabilidade": "reciclagem, refil, origem responsável",
+        "prova_social": "avaliações, depoimentos, número de clientes",
+        "outro": "assunto fora da lista: termo em temas_outros"
+      }
+    },
+    "tom": {
+      "tipo": "um",
+      "codigos": {
+        "urgencia": "só hoje, últimas unidades",
+        "aspiracional": "estilo de vida, desejo",
+        "informativo": "explica o produto ou o serviço",
+        "humor": "piada, meme",
+        "comparativo": "compara com concorrente ou com antes"
+      }
+    },
+    "cta": {
+      "tipo": "lista",
+      "codigos": {
+        "comprar_agora": "comprar, adicionar ao carrinho",
+        "saiba_mais": "saiba mais, ver detalhes",
+        "agendar": "agendar, reservar",
+        "contato_mensagem": "WhatsApp, direct",
+        "visitar_loja": "ir à loja física",
+        "nenhum": "sem chamada"
+      }
+    },
+    "elementos_visuais": {
+      "tipo": "lista",
+      "so_imagem": true,
+      "codigos": {
+        "produto_isolado": "produto em fundo neutro",
+        "produto_em_uso": "pessoa usando o produto",
+        "preco_em_destaque": "preço ou percentual grande",
+        "selo_frete": "selo de frete ou entrega",
+        "logo_marca": "logo em destaque",
+        "texto_dominante": "texto ocupa a maior parte",
+        "outro": "fora da lista"
+      }
+    }
+  },
+  "campos_livres": {
+    "texto_na_imagem": "todo o texto visível, literal",
+    "descricao_visual": "uma frase objetiva do que se vê"
+  },
+  "regras": [
+    "No máximo 3 temas, do mais central ao menos central.",
+    "Preço só vira tema quando é o argumento principal da peça."
+  ]
+}
